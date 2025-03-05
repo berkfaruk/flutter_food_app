@@ -1,4 +1,7 @@
-/// ! Home Category 1
+// ignore_for_file: non_constant_identifier_names
+
+// ! Home Category 1
+
 final FRUIT_CATEGORY_LIST = [
   {"image": "fruit_1.png", "title":"Apples", "price":"\$19"},
   {"image": "fruit_2.png", "title":"Clementines", "price":"\$11"},

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_food_app/screens/main/main_screen.dart';
+import 'package:flutter_food_app/screens/onboarding/onboarding_screen.dart';
+import 'package:flutter_food_app/screens/splash/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: primarySwatch,
       ),
-      home: const MainScreen()
+      home: const SplashScreen(
+        child: OnBoardingScreen(),
+      ),
     );
   }
 }
